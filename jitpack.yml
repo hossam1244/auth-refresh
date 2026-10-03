@@ -1,0 +1,5 @@
+# JitPack build environment — https://jitpack.io/#hossam1244/auth-refresh
+jdk:
+  - openjdk17
+before_install:
+  - sdk install java 17.0.10-open || true
